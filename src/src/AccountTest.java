@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class AccountTest {
 	public static void main (String[] args) { //metodo main inicia a execuação do app Java
 		Account account1 = new Account(50.00); // cria objeto Account
-		Account account2 = new Account(7.53); // cria objeto Account
+		Account account2 = new Account(-7.53); // cria objeto Account
 		
 		//exibe o saldo inicial de cada objeto
 		System.out.printf("account1 balance: $%.2f ", account1.getBalance() );
